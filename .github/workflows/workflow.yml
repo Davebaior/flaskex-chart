@@ -24,4 +24,4 @@ jobs:
           namespace:  default
 
       - name: Install Chart
-        run: helm install app1 ./
+        run: helm upgrade --install app1 ./
