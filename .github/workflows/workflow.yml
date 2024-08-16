@@ -16,4 +16,4 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install Chart
-        run: helm install app1 flaskex-chart/
+        run: helm install app1 ./
